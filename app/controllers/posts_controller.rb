@@ -4,11 +4,6 @@ before_filter :authenticate, :except => [:index, :show]
   # GET /posts.xml
   def index
     @posts = Post.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.xml  { render :xml => @posts }
-    end
   end
 
   # GET /posts/1
