@@ -1,4 +1,7 @@
 <div id="comments">
 <span class="user"><%= comment.commenter %><br /><%= image_tag("naIcon.jpg") %></span>
  <p class="text"><%= comment.body %></p>
+ 	<p><%= link_to 'Destroy Comment', [comment.post, comment], 
+	:confirm => 'Are you sure?', 
+	:method => :delete %></p>
 </div>

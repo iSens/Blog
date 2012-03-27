@@ -73,6 +73,11 @@ img.border {
 	padding: 4px;
 	border: 1px solid #E9E4D8;
 }
+.entry img {
+	padding: 4px;
+	border: 1px solid #E9E4D8;
+	margin:5px;	
+}
 /* Wrapper */
 
 #wrapper {
@@ -254,7 +259,7 @@ img.border {
 }
 .post .title {
 	margin: 0;
-	padding-top: 35px;
+	padding-top: 15px;
 	line-height: normal;
 	font-size: 32px;
 	color: #5A5544;
